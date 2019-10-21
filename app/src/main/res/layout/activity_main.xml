@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:background="@android:color/black"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+    <com.example.doodle_brush.BrushView
+            android:id="@+id/drawingLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_alignParentBottom="true"
+                  android:layout_height="60dp">
+
+
+        <TextView android:layout_width="wrap_content" android:layout_height="match_parent"
+                  android:text="Brush"
+                  android:id="@+id/brushDraw"
+                  android:layout_weight="1"
+                  android:gravity="center"
+                  android:textColor="@android:color/white"
+        />
+
+
+        <TextView android:layout_width="wrap_content" android:layout_height="match_parent"
+                  android:text="Eraser"
+                  android:id="@+id/eraseDraw"
+                  android:layout_weight="1"
+                  android:gravity="center"
+                  android:textColor="@android:color/white"
+        />
+
+
+        <TextView android:layout_width="wrap_content" android:layout_height="match_parent"
+                  android:text="Undo"
+                  android:id="@+id/undoDraw"
+                  android:layout_weight="1"
+                  android:gravity="center"
+                  android:textColor="@android:color/white"
+        />
+
+
+    </LinearLayout>
+
+</RelativeLayout>
