@@ -1,0 +1,4 @@
+#Tue Oct 29 16:46:24 IST 2019
+base.0=/home/pyramidions/AndroidStudioProjects/Doodle_Brush/app/build/intermediates/dex/debug/mergeDexDebug/out/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

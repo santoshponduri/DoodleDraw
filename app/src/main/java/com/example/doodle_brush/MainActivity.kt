@@ -12,10 +12,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-
         drawingLayout.setBrushDrawingMode(true)
-
-
         brushDraw.setOnClickListener(View.OnClickListener {
 
             drawingLayout.setBrushDrawingMode(true)
